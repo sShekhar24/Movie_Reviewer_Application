@@ -1,9 +1,11 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/movieDb
-    username: root
-    password: shekhar
+    url: jdbc:mysql://localhost:3306/moviedb
+    username: anubhav
+    password: anubhav
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update    
+      ddl-auto: create
+server:
+  port: 10801
